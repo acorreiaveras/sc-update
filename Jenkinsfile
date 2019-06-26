@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Update') {
       steps {
-        sh 'sh \'echo build triggered\''
+        sh 'echo build triggered'
       }
     }
   }
